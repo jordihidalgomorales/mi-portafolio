@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <h1>Contacto</h1>
+    <form action="#" method="post">
+      <p>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required />
+      </p>
+      <p>
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required />
+      </p>
+      <p>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      </p>
+      <p>
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" name="edad" min="1" max="100" required />
+      </p>
+      <p>
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" id="fecha" name="fecha" required />
+      </p>
+      <p>
+        <label for="motivo">Motivo</label>
+        <select id="motivo" name="motivo" required>
+          <option value="trabajo">Propuesta de trabajo</option>
+          <option value="consulta">Consulta</option>
+          <option value="otro">Otro</option>
+        </select>
+      </p>
+      <p>
+        <input type="checkbox" id="aviso" name="aviso" />
+        <label for="aviso">Quiero recibir novedades</label>
+      </p>
+      <p>
+        <button type="submit">Enviar</button>
+      </p>
+    </form>
+    <p>
+      <a href="index.html">Volver a la página principal</a>
+    </p>
+  </body>
+</html>
